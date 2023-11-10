@@ -63,18 +63,18 @@ fn3(arr)
 
 const obj = {
   valueOf: ()=> {
-    console.log('valueOf')
+    // console.log('valueOf')
     return 100
     // return {}
   },
   toString: ()=> {
-    console.log('toString');
+    // console.log('toString');
     return 100
     // return {}
   }
 }
 
-console.log(1 + obj); // valueOf
+// console.log(1 + obj); // valueOf
 // console.log(`${obj}`) // toString
 
 /**
@@ -99,6 +99,7 @@ const obj2 = {
 
 // console.log(typeof('1' + obj2) );
 const ret = 1 + obj2
+
 console.log(typeof ret, ret);
 
 /**

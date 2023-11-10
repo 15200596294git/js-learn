@@ -34,7 +34,6 @@ const ESC = [
 // 变量对象
 var global = "global";
 function fun(a, b) {
-  console.log(a, b);
 }
 
 // 执行fun时
